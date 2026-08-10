@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  PruebaTecSupermercado: #nombre de la app establecido en application.properties
+  pruebatecsupermercado: #nombre de la app establecido en application.properties
     build: PruebaTecSupermercado #nombre de la carpeta donde está el DockerFile
     mem_limit: 512m
     ports:
